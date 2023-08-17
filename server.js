@@ -30,8 +30,8 @@ app.get('/magic/:question', (req, res)=> {
     const response = magic8BallResponse[Math.floor(Math.random() * magic8BallResponse.length)];
 
     res.send(`
-        <h1>Your Question: ${question}</h1>
-        <h1>Magic 8 Ball: ${response}</h1>
+        <h1>Question: ${question}</h1>
+        <h1>Magic 8 Ball: ${response}.</h1>
     `)
 });
 
