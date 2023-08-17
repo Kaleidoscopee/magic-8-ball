@@ -31,7 +31,7 @@ app.get('/magic/:question', (req, res)=> {
 
     res.send(`
         <h1>Your Question: ${question}</h1>
-        <h1>Magic 8 Ball Response: ${response}</h1>
+        <h1>Magic 8 Ball: ${response}</h1>
     `)
 });
 
